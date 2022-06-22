@@ -6,4 +6,4 @@ def main(a):
     Returns:
         a: a increased by 1 if positive, else unchanged.
     """
-    return
+    return 78
