@@ -38,8 +38,7 @@ def main(a,b,c):
     if numbers_ijobiy > numbers_sal:
         return "positive numbers"
 
-    if numbers_ijobiy < numbers_sal:
-        return "negative numbers"
+    return "negative numbers"
 
 
 print(main(-8,9,8))
