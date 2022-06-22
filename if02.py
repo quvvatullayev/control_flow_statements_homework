@@ -6,4 +6,14 @@ def main(a):
     Returns:
         a: a increased by 1 if positive, else decreased by 2.
     """
-    return
+
+    son = a
+    if a > 0:
+        son += 1
+
+    else:
+        son -= 2
+
+    return son
+
+print(main(-5))
