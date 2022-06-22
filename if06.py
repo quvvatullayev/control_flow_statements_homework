@@ -13,4 +13,34 @@ def main(a,b,c):
     Returns:
         string: string with the result
     """
-    return
+    son = ""
+    numbers_sal = 0
+    numbers_ijobiy = 0
+
+    if a < 0:
+        numbers_sal += 1
+    
+    if b < 0:
+        numbers_sal += 1
+
+    if c < 0:
+        numbers_sal += 1
+
+    if a > 0:
+        numbers_ijobiy += 1
+    
+    if b > 0:
+        numbers_ijobiy += 1
+
+    if c > 0:
+        numbers_ijobiy += 1
+
+    if numbers_ijobiy > numbers_sal:
+        son += "positive numbers"
+
+    else:
+        son += "negative numbers"
+
+    return son
+
+print(main(-8,9,8))
