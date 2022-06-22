@@ -6,4 +6,18 @@ def main(a):
     Returns:
         a: integer
     """
-    return
+
+    
+    son = a
+    if a > 0:
+        son += 1
+
+    elif a < 0:
+        son -= 2
+
+    else:
+        son += 10
+
+    return son
+
+print(main(0))
