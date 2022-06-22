@@ -6,4 +6,13 @@ def main(a):
     Returns:
         a: a increased by 1 if positive, else unchanged.
     """
-    return 787
+    son = a
+    if a > 0:
+        son += 1
+
+    else:
+        son += 0
+
+    return son
+
+print(main(7))
