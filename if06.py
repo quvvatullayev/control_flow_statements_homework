@@ -38,7 +38,7 @@ def main(a,b,c):
     if numbers_ijobiy > numbers_sal:
         son += "positive numbers"
 
-    else:
+    if numbers_ijobiy < numbers_sal:
         son += "negative numbers"
 
     return son
