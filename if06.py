@@ -36,9 +36,9 @@ def main(a,b,c):
         numbers_ijobiy += 1
 
     if numbers_ijobiy > numbers_sal:
-        return "positive numbers"
-
-    return "negative numbers"
+        return "negative numbers"
+        
+    return "positive numbers"
 
 
 print(main(-8,9,8))
