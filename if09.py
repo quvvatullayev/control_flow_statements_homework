@@ -12,20 +12,19 @@ def main(a):
     javob = ""
 
 
-    if 9 < a < 10:
-        a1 = a % 10
-        a = a // 10
+    a1 = a % 10
+    a = a // 10
 
-        a2 = a % 10
-        a = a // 10
+    a2 = a % 10
+    a = a // 10
 
-        son = a1 * 10 + a2
+    son = a1 * 10 + a2
 
-        if son  <= a:
-            javob += "True"
+    if son  <= a:
+        javob += "True"
         
-        else:
-            javob += "Fals"
+    else:
+        javob += "Fals"
 
     return javob
 
