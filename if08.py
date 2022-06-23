@@ -15,20 +15,20 @@ def main(a):
         string: the message to print
     """
 
-    s = ""
+    string = ""
 
     if a > 9:
         if a % 2 == 1:
-            s += "two-digit odd number"
+            string += "two-digit odd number"
         else:
-            s += "two-digit even number"
+            string += "two-digit even number"
 
     elif a > 99:
         if a % 2 == 1:
-            s += "three-digit odd number"
+            string += "three-digit odd number"
         else:
-            s += "three-digit even number"
+            string += "three-digit even number"
 
-    return s
+    return string
 
 print(main(57))
