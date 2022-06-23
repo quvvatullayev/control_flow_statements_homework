@@ -17,17 +17,17 @@ def main(a):
 
     string = ""
 
-    if a > 9:
-        if a % 2 == 1:
-            string += "two-digit odd number"
-        else:
-            string += "two-digit even number"
-
-    elif a > 99:
+    if a > 99:
         if a % 2 == 1:
             string += "three-digit odd number"
         else:
             string += "three-digit even number"
+
+    else:
+        if a % 2 == 1:
+            string += "two-digit odd number"
+        else:
+            string += "two-digit even number"
 
     return string
 
