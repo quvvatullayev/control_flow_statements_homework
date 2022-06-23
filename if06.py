@@ -14,30 +14,30 @@ def main(a,b,c):
         string: string with the result
     """
     
-    numbers_sal = 0
-    numbers_ijobiy = 0
+    p = 0
+    n = 0
 
     if a < 0:
-        numbers_sal += 1
+        p += 1
     
-    if b < 0:
-        numbers_sal += 1
+        if b < 0:
+            p += 1
 
-    if c < 0:
-        numbers_sal += 1
+        if c < 0:
+            p += 1
 
     if a > 0:
-        numbers_ijobiy += 1
+        n += 1
     
-    if b > 0:
-        numbers_ijobiy += 1
+        if b > 0:
+            n += 1
 
-    if c > 0:
-        numbers_ijobiy += 1
+        if c > 0:
+            n += 1
 
-    if numbers_ijobiy > numbers_sal:
+    if p > n:
         return "negative numbers"
-        
+
     return "positive numbers"
 
 
