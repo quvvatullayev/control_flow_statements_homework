@@ -9,6 +9,7 @@ def main(a):
     Returns:
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
+
     javob = ""
 
 
@@ -20,9 +21,9 @@ def main(a):
 
     son = a1 * 10 + a2
 
-    if son  <= a:
+    if son  < a or son == a:
         javob += "True"
-        
+
     else:
         javob += "Fals"
 
