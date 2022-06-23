@@ -1,3 +1,6 @@
+from cgi import print_arguments
+
+
 def main(a):
     """
     Given an integer a, check the following conditions:
@@ -11,4 +14,21 @@ def main(a):
     Returns:
         string: the message to print
     """
-    return
+
+    s = ""
+
+    if a > 9:
+        if a % 2 == 1:
+            s += "two-digit odd number"
+        else:
+            s += "two-digit even number"
+
+    elif a > 99:
+        if a % 2 == 1:
+            s += "three-digit odd number"
+        else:
+            s += "three-digit even number"
+
+    return s
+
+print(main(568))
