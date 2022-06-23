@@ -17,23 +17,11 @@ def main(a,b,c):
     p = 0
     n = 0
 
-    if a < 0:
-        p += 1
-    
-        if b < 0:
-            p += 1
+    if a < 0 and b < 0 and c < 0:
+        p += 3
 
-        if c < 0:
-            p += 1
-
-    if a > 0:
-        n += 1
-    
-        if b > 0:
-            n += 1
-
-        if c > 0:
-            n += 1
+    if a > 0 and b > 0 and c > 0:
+        n += 3
 
     if p > n:
         return "negative numbers"
