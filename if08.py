@@ -31,4 +31,4 @@ def main(a):
 
     return s
 
-print(main(568))
+print(main(57))
