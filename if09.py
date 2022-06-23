@@ -10,14 +10,10 @@ def main(a):
         boolean: True if the resulting number is less than or equal to the old number, otherwise return False.
     """
 
-    javob = ""
-
 
     a1 = a % 10
-    a = a // 10
 
-    a2 = a % 10
-    a = a // 10
+    a2 = a // 10 % 10
 
     son = a1 * 10 + a2
 
