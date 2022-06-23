@@ -19,7 +19,7 @@ def main(a):
         a2 = a % 10
         a = a // 10
 
-        son = a1 * 10 + a
+        son = a1 * 10 + a2
 
         if son  <= a:
             javob += "True"
