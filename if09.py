@@ -21,12 +21,6 @@ def main(a):
 
     son = a1 * 10 + a2
 
-    if son  < a or son == a:
-        javob += "True"
-
-    else:
-        javob += "Fals"
-
-    return javob
+    return son <= a
 
 print(main(45))
